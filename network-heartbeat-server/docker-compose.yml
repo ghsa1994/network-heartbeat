@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  network-heartbeat-server:
+    build: .
+    restart: always
+    image: network-heartbeat-server:3-alpine-amd64
+    container_name: network-heartbeat-server
+    ports:
+        - "1888:1888"
