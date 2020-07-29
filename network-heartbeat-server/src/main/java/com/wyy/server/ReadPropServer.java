@@ -13,7 +13,8 @@ import java.util.HashMap;
  * @Created by wangyongyi
  */
 public class ReadPropServer {
-    private final String DEVCONFIGFILE = "E:\\SourceCode\\IdeaFile\\network-heartbeat\\network-heartbeat-server\\config.properties";
+    // 调试的目录
+    private final String DEVCONFIGFILE = "E:\\config.properties";
     private final String PRODCONFIGFILE = "./config.properties";
 
     public Config getProp (String configType){
