@@ -14,7 +14,7 @@ import java.util.HashMap;
  */
 public class ReadPropServer {
     // 调试的目录
-    private final String DEVCONFIGFILE = "E:\\config.properties";
+    private final String DEVCONFIGFILE = "E:\\SourceCode\\IdeaFile\\network-heartbeat\\config\\server\\config.properties";
     private final String PRODCONFIGFILE = "./config.properties";
 
     public Config getProp (String configType){
